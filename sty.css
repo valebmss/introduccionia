@@ -88,3 +88,34 @@ footer{
     background-color: #104547;
     height: 5.5em;
 }
+
+.boton{
+    padding: 1.2em;
+    margin: 1em;
+    border: solid .1em #104547;
+    border-radius: 2em;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover{
+    background-color: #13585B;
+    color: white;
+}
+
+.conboton{
+    text-align: center;
+    align-items: center;
+    
+}
+
+.conh2{
+    text-align: center;
+    padding: 5em;
+    
+}
+
+h2{
+    font-size: 1.5em;
+}

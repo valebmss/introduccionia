@@ -16,13 +16,13 @@
         <ol class="navli">
             <a href="index.html"><li>Inicio</li></a>
             <a href="img.html"><li class="active">Modelo de imagenes</li></a>
-            <a href="#"><li>Modelo de posturas</li></a>
+            <a href="posturas.html"><li>Modelo de posturas</li></a>
             <a href="#"><li>Modelo de audio</li></a>
         </ol>
     </nav>
     <main>
-        <div>Objetos</div>
-    <button type="button" onclick="init()">Iniciar modelo</button>
+        <div class="conh2"><h2>En el modelo de imagenes se tomaron 215 muestras por cada clase, en este caso las clases son el rostro de algunos integrantes del grupo</h2></div>
+    <div class="conboton"><button type="button" onclick="init()" class="boton">Iniciar modelo</button></div>
     <div id="webcam-container"></div>
     <div id="label-container"></div>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
@@ -50,7 +50,7 @@
 
             // Convenience function to setup a webcam
             const flip = true; // whether to flip the webcam
-            webcam = new tmImage.Webcam(200, 200, flip); // width, height, flip
+            webcam = new tmImage.Webcam(500, 500, flip); // width, height, flip
             await webcam.setup(); // request access to the webcam
             await webcam.play();
             window.requestAnimationFrame(loop);
@@ -89,3 +89,4 @@
     -->
 </body>
 </html>
+

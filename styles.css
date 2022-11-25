@@ -471,3 +471,7 @@ footer{
     text-decoration-line: none;
     color: white;
 }
+.des{
+    color: rgb(66, 66, 66);
+    font-size: 1em;
+}
